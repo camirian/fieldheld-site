@@ -1,13 +1,13 @@
 :root {
-  color-scheme: light;
-  --bg: #f6f5f1;
-  --surface: #ffffff;
-  --ink: #15191d;
-  --muted: #4f5963;
-  --line: #d8d5cc;
-  --accent: #2f5f7c;
-  --accent-strong: #1f4156;
-  --focus: #9b6a2f;
+  color-scheme: dark;
+  --bg: #0d1114;
+  --surface: #12191e;
+  --ink: #eef3f4;
+  --muted: #aab6ba;
+  --line: #2a363c;
+  --accent: #95c0cf;
+  --accent-strong: #d8e5e8;
+  --focus: #d6a85c;
 }
 
 * {
@@ -109,7 +109,7 @@ h1 {
   align-items: center;
   justify-content: center;
   border: 1px solid var(--accent-strong);
-  background: #ffffff;
+  background: transparent;
   color: var(--accent-strong);
   padding: 10px 16px;
   font-size: 0.95rem;
@@ -119,7 +119,7 @@ h1 {
 }
 
 .button:hover {
-  background: #eceff1;
+  background: #182229;
 }
 
 .section {
