@@ -7,6 +7,7 @@ Fieldheld builds evidence gates for autonomous work.
 Current public artifact:
 
 - [Fieldheld Recorder](https://github.com/camirian/fieldheld-recorder)
+- [Evidence gate critique request](https://github.com/camirian/fieldheld-recorder/blob/main/docs/CRITIQUE_REQUEST.md)
 - [Blocked evidence-gate sample](https://github.com/camirian/fieldheld-recorder/tree/main/samples/fieldheld-sample-run-blocked)
 - [Run review checklist](https://github.com/camirian/fieldheld-recorder/blob/main/docs/RUN_REVIEW_CHECKLIST.md)
 
