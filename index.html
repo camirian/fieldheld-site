@@ -24,17 +24,17 @@
         </div>
         <div class="hero-copy">
           <p class="lede">
-            Fieldheld builds evidence infrastructure for autonomous work: run
-            records, artifact manifests, verification reports, evidence
-            packets, review packets, and bounded rollback surfaces, so work can
-            be inspected before it is trusted.
+            Fieldheld builds evidence gates for autonomous work: run records,
+            artifact manifests, verification reports, policy-gate reports,
+            evidence packets, review packets, and bounded rollback surfaces, so
+            work can be inspected before it is trusted.
           </p>
           <div class="actions" aria-label="Primary links">
             <a class="button primary" href="https://github.com/camirian/fieldheld-recorder" aria-label="Open Fieldheld Recorder on GitHub">
               Open Fieldheld Recorder
             </a>
-            <a class="button secondary" href="https://github.com/camirian" aria-label="Open the camirian GitHub profile">
-              Open GitHub Profile
+            <a class="button secondary" href="https://github.com/camirian/fieldheld-recorder/tree/main/samples/fieldheld-sample-run-blocked" aria-label="Open the blocked evidence-gate sample">
+              Inspect Blocked Run
             </a>
           </div>
         </div>
@@ -51,8 +51,8 @@
           <p>Readable summaries connecting commands, diffs, checks, and review notes.</p>
         </article>
         <article>
-          <h3>Review Boundaries</h3>
-          <p>Clear surfaces for inspection and bounded rollback decisions.</p>
+          <h3>Evidence Gates</h3>
+          <p>Accepted, escalated, and blocked outcomes with explicit policy decisions.</p>
         </article>
       </section>
 
@@ -61,14 +61,16 @@
           <h2 id="proof-title">First Public Artifact</h2>
           <p>
             Fieldheld Recorder is a small synthetic CLI that creates evidence
-            bundles for replay, review, and bounded rollback.
+            bundles and policy-gate reports for replay, review, and bounded
+            rollback.
           </p>
           <p>
             The public repo includes the demo, quickstart, Artifact Walkthrough,
-            Agent Run Record Spec, and sample packets. It is not a live agent
-            adapter yet.
-            <a href="https://github.com/camirian/fieldheld-recorder/blob/main/docs/ARTIFACT_WALKTHROUGH.md">
-              Read Artifact Walkthrough
+            Agent Run Record Spec, run review checklist, and sample packets for
+            accepted, rejected, escalated, and blocked runs. It is not a live
+            agent adapter yet.
+            <a href="https://github.com/camirian/fieldheld-recorder/blob/main/docs/RUN_REVIEW_CHECKLIST.md">
+              Read Run Review Checklist
             </a>.
           </p>
         </article>
